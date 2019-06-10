@@ -1,10 +1,10 @@
-# MetaBMF: An Ultra-fast Algorithm for Large-scale Reference-free Metagenomic Studies
+# MetaBMF: A Fast Algorithm for Large-scale Reference-free Metagenomic Studies
 
-MetaBMF is an ultra-fast algorithm for large-scale reference-free metagenomic studies. The pipeline outputs all binned species in multiple metagenomic samples and their estimated relative abundances.  A test dataset with 6 microbial species is used to illustrate the MetaBMF pipeline. The data is available at https://figshare.com/articles/test-data_zip/3491951
+MetaBMF is a fast algorithm for large-scale reference-free metagenomic studies. The pipeline outputs all binned species in multiple metagenomic samples and their estimated relative abundances.  A test dataset with 6 microbial species is used to illustrate the MetaBMF pipeline. The data is available at https://figshare.com/articles/test-data_zip/3491951
 
 ## Some Dependencies
 
-* [Ray Assembler](http://denovoassembler.sourceforge.net/)
+* [Ray Assembler](http://denovoassembler.sourceforge.net/) or [MegaHIT Assembler](http://www.metagenomics.wiki/tools/assembly/megahit)
 * [Bowtie2](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml)
 * [Samtools](http://www.htslib.org/)
 
@@ -47,6 +47,8 @@ More detailed options for feature extraction are listed below
 -a      For fasta files
 
 ```
+Users could first choose a wide range such as (50, 3000) with a large step size like 100.  Then users could get a rough estimate of the number of bins. For example, if the rough estimate is $1000$ bins, users could refine their search between 900 and 1100 with a smaller step size. This strategy is computationally efficient when there are a large number of species.
+
 ## Binning & Estimating Relative Abundances
 
 Options for binning & estimating relative abundances
