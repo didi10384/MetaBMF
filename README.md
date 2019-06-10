@@ -47,7 +47,7 @@ More detailed options for feature extraction are listed below
 -a      For fasta files
 
 ```
-Users could first choose a wide range such as (50, 3000) with a large step size like 100.  Then users could get a rough estimate of the number of bins. For example, if the rough estimate is $1000$ bins, users could refine their search between 900 and 1100 with a smaller step size. This strategy is computationally efficient when there are a large number of species.
+Users could first choose a wide range such as (50, 3000) with a large step size like 100.  Then users could get a rough estimate of the number of bins. For example, if the rough estimate is 1000 bins, users could refine their search between 900 and 1100 with a smaller step size. This strategy is computationally efficient when there are a large number of species.
 
 ## Binning & Estimating Relative Abundances
 
