@@ -4,7 +4,7 @@ MetaBMF is a fast algorithm for large-scale reference-free metagenomic studies. 
 
 ## Some Dependencies
 
-* [Ray Assembler](http://denovoassembler.sourceforge.net/) or [MegaHIT Assembler](http://www.metagenomics.wiki/tools/assembly/megahit)
+* [Ray Assembler](http://denovoassembler.sourceforge.net/) or [MegaHIT Assembler](http://www.metagenomics.wiki/tools/assembly/megahit) (Users can also choose their preferred assemblers other than Ray and MegaHIT)
 * [Bowtie2](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml)
 * [Samtools](http://www.htslib.org/)
 
