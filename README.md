@@ -1,4 +1,4 @@
-# MetaBMF: A Fast Algorithm for Large-scale Reference-free Metagenomic Studies
+# MetaBMF: A Scalable Algorithm for Large-scale Reference-free Metagenomic Studies
 
 MetaBMF is a fast algorithm for large-scale reference-free metagenomic studies. The pipeline outputs all binned species in multiple metagenomic samples and their estimated relative abundances.  A test dataset with 6 microbial species is used to illustrate the MetaBMF pipeline. The data is available at https://figshare.com/articles/test-data_zip/3491951
 
