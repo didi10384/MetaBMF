@@ -157,7 +157,7 @@ else
     mkdir $metagen_work/contigs
 fi
 cp $ctg_file $metagen_work/contigs/
-bowtie2-build $metagen_work/contigs/Contigs.fasta $metagen_work/contigs/contigs-ref
+bowtie2-build --threads ${num_thread} $metagen_work/contigs/Contigs.fasta $metagen_work/contigs/contigs-ref
 
 ###Alignment using Bowtie2
 REF=$metagen_work/contigs/contigs-ref
